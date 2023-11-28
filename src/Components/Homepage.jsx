@@ -62,10 +62,10 @@ const Homepage = () => {
     <DIV>
       <div>
         <h1>Filter here...</h1>
-        <Select onChange={hadleSelectChange}>
+        <select onChange={(e)=>e.target.value}>
         <option value="asc">Low to High</option>
         <option value="desc">High to Low</option>
-</Select>
+</select>
 
       </div>
 
